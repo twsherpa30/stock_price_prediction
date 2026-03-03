@@ -28,19 +28,10 @@ The model's performance is quantified using Root Mean Squared Error (RMSE).
 - **Training RMSE:** ~2.00
 - **Testing RMSE:** ~8.94
 
-*Note: Results may vary slightly depending on the exact date range fetched at runtime.*
-
-## Future Enhancements
-To scale this project for production and expand its capabilities, the following features are planned:
-- **Cloud Deployment:** Containerize the inference logic using Docker and expose it as a FastAPI service deployed on Google Cloud Platform (e.g., Cloud Run or Artifact Registry).
-- **Multi-Agent Integration:** Package this predictive model as a specialized forecasting agent within a broader autonomous multi-agent financial analysis system.
-- **Multivariate Inputs:** Incorporate additional financial indicators such as trading volume, moving averages, or macroeconomic indices.
-- **Automated Workflows:** Implement CI/CD pipelines to automatically retrain the model on fresh daily data.
-
 ## Getting Started
 
 ### Prerequisites
 Ensure you have Python 3.8+ installed along with the required libraries. 
 
 ```bash
-pip install torch torchvision torchaudio numpy pandas yfinance scikit-learn matplotlib
+pip install torch numpy pandas yfinance scikit-learn matplotlib
